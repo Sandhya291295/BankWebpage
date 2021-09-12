@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dakota Bank|Log In </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     <script src="https://kit.fontawesome.com/yourcode.js"></script>
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+     <!-- <script src="https://kit.fontawesome.com/yourcode.js"></script> -->
+ <link rel="stylesheet" href="Loginpage.css">
+
+</head>
+<body>
+    <header>
+        <img src="Lock.jpg" alt="Lock" class="image">
+       <p class="dakota">DAKOTA BANK</p>
+       <p class="small">Be Safe,Be Secure</p>
+       
+       <div class="firstbutton">
+           <form action="homepage.html">
+            <button id="home" ><i class="fa fa-home"></i></button>
+        </form>
+       </div>
+       <div class="secondbutton">
+          <form action="">
+             <button id="contact" ><i class="fa fa-phone"></i></button>
+          </div>
+          <div class="thirdbutton">
+              <form action="">
+             <div class="dropdown">
+               <button id="search" ><i class="glyphicon glyphicon-search"></i></button>
+               <div class="dropdown-content">
+                <a href="#"><i class="fas fa-map-pin"></i>&nbsp;Loans</a>
+                <a href="#"><i class="fas fa-users"></i>&nbsp;Branches</a>
+                <a href="#"><i class="fas fa-map-pin"></i>&nbsp;Navigation</a>
+               </div>
+             </div>
+            </form>
+            </div>
+     </header>
+     
+     <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+           <h1 id="cust"><i class="fas fa-phone-volume"></i>&nbsp;CUSTOMER CARE</h1>
+           <p class="cus">You can reach us through the following modes</p>
+           <p class="cus">Call us at <code> 1800 023 1234</code> (Toll-free)</p>
+           <p class="cus">Drop us a mail at <code> info@dakotabank.com</code></p>
+           <form action="">
+            <input type="text" id="email1" placeholder="Enter your email-Id"><br>
+            <br>
+            <textarea name="txt" id="txt" cols="39" rows="7" placeholder="Leave Your message...."></textarea><br>
+            <button type="submit" id="btnmod">SUBMIT</button></form>
+            <br><br>
+            <p class="cus">Follow us on Social media to receive latest updates</p>
+            <h1><i class="fab fa-instagram"></i>&nbsp;&nbsp;&nbsp;<i class="fab fa-facebook"></i>
+            &nbsp;&nbsp;<i class="fab fa-twitter">&nbsp;&nbsp;&nbsp;</i><i class="fab fa-youtube"></i></h1>
+             </div>
+      </div>
+      
+      <section>
+     <div id="section">
+         <form onsubmit="return val()" action="transactions.html">
+            <br>
+            <p id="h1">Already Registered as a member !!!!! then </p>
+            <p id="h2">LOG IN </p>
+            <br>
+          <i class="fas fa-id-card">&nbsp;A/C No :&nbsp;<input type="text" placeholder="AccountNumber" id="acnum" required></i><br>
+            <span id="acc" style="margin-left: 80px;"></span><br><br>
+            <i class="fas fa-portrait">&nbsp;Pin No : &nbsp;<input type="password" placeholder="pinpassword" id="pinpwd" required ></i>
+            <i style="font-weight: bolder;"><input type="checkbox" onclick="showpass()">Show</i><br>
+            <span id="pp" style="margin-left: 80px;"></span><br><br>
+             <button type="submit" id="btn">Log In</button><br> <br>
+             <span id="one">forgot</span>
+             <span > <a href="registration.html" id="two">password ?</a></span>&nbsp;&nbsp;
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <span id="three">forgot</span>
+             <span>  <a href="registration.html"  id="four">userid ?</a></span><br>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <a href="registration.html" id="five">New Online Registration</a>
+         </form>
+     </div>
+
+     <div id="quotes">
+        <video src="Banking_explained.mp4" type="video/mp4" controls id="vedio" id="vedio" >
+    </div>
+
+      </section>
+     
+        <span id="icon">
+               
+            <!--Facebook-->
+<a href="https://www.facebook.com/" ><i class="fab fa-lg fa-facebook-f"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<!--Twitter-->
+<a href="https://www.twitter.com/"><i class="fab fa-lg fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<!--Google +-->
+<a href="https://plus.google.com/"><i class="fab fa-lg fa-google-plus-g"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<!--Linkedin-->
+<a href="https://www.linkedin.com/"><i class="fab fa-lg fa-linkedin-in"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<!--Instagram-->
+<a href="https://www.instagram.com/"><i class="fab fa-lg fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<!--Pinterest-->
+<a href="https://www.pinterest.com/"><i class="fab fa-lg fa-pinterest"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<!--Vkontakte-->
+<!-- <a class="vk-ic mr-3" role="button"><i class="fab fa-lg fa-vk"></i></a> -->
+<!--Stack Overflow-->
+<!-- <a class="so-ic mr-3" role="button"><i class="fab fa-lg fa-stack-overflow"></i></a> -->
+<!--Youtube-->
+<a href="https://www.youtube.com/"><i class="fab fa-lg fa-youtube"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<!--Slack-->
+<!-- <a class="slack-ic mr-3" role="button"><i class="fab fa-lg fa-slack-hash"></i></a> -->
+<!--Github-->
+<a href="https://www.github.com/"><i class="fab fa-lg fa-github"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<!--Comments-->
+<a href="#"><i class="fas fa-lg fa-comments"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<!--Email-->
+<a href="https://www.gmail.com/"><i class="far fa-lg fa-envelope"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<!--Dribbble-->
+<!-- <a class="dribbble-ic mr-3" role="button"><i class="fab fa-lg fa-dribbble"></i></a> -->
+<!--Reddit-->
+<!-- <a class="reddit-ic mr-3" role="button"><i class="fab fa-lg fa-reddit-alien"></i></a> -->
+<!--WhatsApp-->
+<a href="https://www.whatsapp.com/"><i class="fab fa-lg fa-whatsapp"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+</span>
+
+<footer>
+    <div class="footer">
+        <span id="terms"> &nbsp;&nbsp;&nbsp;&nbsp; Privacy Policy | Terms & Conditions | Disclaimer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright © Dakota Bank Limited, All rights reserved</span>
+       <span><marquee behavior="" direction="" style="color: yellow;">IMPORTANT: .Any phone call / SMSes / e-mails asking you to reveal credential or One Time Password through SMS could be attempt to withdraw money from your account.NEVER share these details to anyone.Dakota Bank wants you to be secure. If you come across any such instances please inform us through e-mail to the following address- <span style="color: blue;">epg.sms@dakota.com </span></marquee></span>
+        </div>
+</footer>
+   </body>
+<script src="Loginpage.js"></script>
+
+</html>

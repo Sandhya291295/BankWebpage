@@ -1,0 +1,320 @@
+@font-face{
+    font-family: Arial, Helvetica, sans-serif;
+    src: url(Arial.ttf);
+}
+body{
+    background-image: url(bankhome1.jpg);
+    animation: animation 10s infinite;
+}
+    @keyframes animation 
+{
+    0%{
+        background: url("atm.jpeg");
+        /* height: 400px; */
+        background-size: cover;
+    }
+    25%
+    {
+        background: url("agriculture.jpeg");
+        background-size: cover;
+    }
+    50%
+    {
+        background: url("education.jpeg");
+        background-size: cover;
+    }
+    75%
+    {
+        background: url("home.jpeg");
+        background-size: cover;
+    }
+    100%
+    {
+        background: url("gold.jpeg");
+        background-size: cover;
+    }
+    125%{
+        
+        background: url("note.jpeg");
+        background-size: cover;
+
+    }
+    150%{
+        
+        background: url("car.jpeg");
+        background-size: cover;
+
+    }
+    
+}
+.small{
+    color: white;
+    margin-left: 330px;
+    margin-top: -20px;
+    font-weight:bolder;
+}
+header{
+   border: solid white;
+   margin: 2px;
+   height: 150px;
+   width:1360px;
+   background: radial-gradient(red,black);
+   opacity: 0.7;
+ }
+.image{
+   height: 50px;
+   width: 50px;
+   margin-left: 40px;
+   margin-top: 40px;
+   border:solid yellow;
+   border-radius: 35%;
+}
+.dakota{
+    color: red;
+    text-shadow:2px 2px yellow;
+    font-size: 53px;
+    font-family:Cinzel-Black;
+    margin-left: 110px;
+    margin-top: -62px;
+    font-weight:10px bolder;
+}
+
+.firstbutton{
+    margin-left: 800px;
+    margin-top: -90px;
+ }
+.secondbutton{
+    margin-left: 1000px;
+    margin-top: -54px;
+}
+.thirdbutton{
+    margin-left: 1200px;
+    margin-top: -54px;
+}
+
+#home{
+    height: 60px;
+    color: white;
+    background-color: transparent;
+    border: transparent;
+    font-size: 50px;
+    font-weight:  bolder;
+    /* border-bottom:solid white; */
+
+ }
+ #home:hover{
+    color:black
+     
+}
+ #contact{
+    height: 60px;
+    color: white;
+    background-color: transparent;
+    border: transparent;
+    font-size: 50px;
+    font-weight:  bolder;
+    /* border-bottom:solid white; */
+ }
+ #contact:hover{
+    color:black
+}
+ #search{
+    height: 60px;
+    color: white;
+    background-color: transparent;
+    border: transparent;
+    font-size: 50px;
+    font-weight:  bolder;
+    /* border-bottom:solid white; */
+ }
+ #search:hover{
+    color:black
+    
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 300px;
+    box-shadow:white;
+    /* color: white; */
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color:white;
+    padding: 12px 16px;
+    display: block;
+    font-weight: bolder;
+  }
+  
+  .dropdown-content a:hover {
+         background:linear-gradient(yellow,red);
+        }
+  
+  .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    footer{
+        border: solid white;
+        margin: 2px;
+        height: 50px;
+        width:1360px;
+        background: radial-gradient(red,black);
+        opacity: 0.7;
+        margin-top: 0px;
+      }
+      #terms {
+          color: white;
+          font-weight:2px bolder;
+      }
+
+      #section{
+      margin: 2px;
+      height: 500px;
+      width: 1360px;  
+      border:solid white;
+      background: radial-gradient(red,black); 
+
+      }
+      #label1{
+          font-size: 20px;
+          color:yellow;
+          text-shadow: 1px 1px red;
+      }
+   #currentbalance{
+    font-size: 20px;
+    color: black;
+   }
+   i{ 
+    color:yellow;
+    text-shadow: 2px 4px 6px red; 
+
+} 
+.fa{ 
+    font-size: 50px; 
+} 
+#label1{
+    margin-top: 10px;
+    margin-left: 425px;
+}
+#description{
+    margin-top: 50px;
+    margin-left: 10px;
+    color:yellow;
+    text-shadow: 2px 4px 6px red; 
+    background: transparent;
+    border: solid yellow;
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+}
+#description:hover{
+    background: radial-gradient(white,blue); 
+}
+#label2{
+    font-size: 18px;
+    color:yellow;
+    text-shadow: 1px 1px red;
+    margin-left: 300px;
+}
+#depositamount{
+    font-size: 18px;
+    color: black;
+   }
+   #btnd{
+    margin-top: 0px;
+    margin-left: 10px;
+    color:yellow;
+    text-shadow: 2px 4px 6px red; 
+    background: transparent;
+    border: solid yellow;
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+   }
+   #btnd:hover{
+    background: radial-gradient(white,blue); 
+}
+#label3{
+    font-size: 18px;
+    color:yellow;
+    text-shadow: 1px 1px red;
+    margin-left: 300px;
+}
+#withdrawamount{
+    font-size: 18px;
+    color: black;
+   }
+   #btnw{
+    margin-top: 0px;
+    margin-left: 10px;
+    color:yellow;
+    text-shadow: 2px 4px 6px red; 
+    background: transparent;
+    border: solid yellow;
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+   }
+   #btnw:hover{
+    background: radial-gradient(white,blue); 
+}
+
+table,th,tr,td{
+    margin-top: 40px;
+    margin-left: 500px;
+    height: 50px;
+    width: 800px;
+    color:yellow;
+    text-shadow: 2px 4px 6px red; 
+    background: transparent;
+    border: solid yellow;
+    border-collapse: collapse;
+   }
+th,td{
+    /* padding-left: 30px; */
+    text-align: center;
+    font-size: 18px;
+}
+th:hover,tr:hover{
+    background: radial-gradient(white,blue); 
+}
+#table1{
+    margin-top:-10px;
+    margin-left:350px;
+}
+
+
+#mode{
+    font-size: 20px;
+    color:yellow;
+    text-shadow: 1px 1px red;
+}
+#description1,#description2{
+    margin-top: 50px;
+    margin-left: 10px;
+    color:yellow;
+    text-shadow: 2px 4px 6px red; 
+    background: black;
+    border: solid yellow;
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+}
+
+#out{
+    margin-left: 320px;
+    font-size:18px;
+    color: yellow;
+    text-shadow: 1px 2px red;
+    }
+    #out i{
+        font-size:22px;
+    }
+   

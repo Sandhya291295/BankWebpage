@@ -266,7 +266,7 @@ text-transform: uppercase;
   animation: animation 5s infinite;
   margin-left: 1257px;
   margin-top: -305px;
-  position: fixed;
+  position: sticky;
 }
  .icon-bar a {
   display: block;
